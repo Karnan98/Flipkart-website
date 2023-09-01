@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+.container{
+   
+    background:url(../../assets/image/background-2.jpg) !important;
+    background-position:center;
+}
+.contont{
+    max-width:  130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+.right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+.delivary-img{
+    width: 6rem;
+}
+.coin-img{
+    width: 9rem;
+    margin-bottom: 3rem;
+}
+.discound-img{
+    width: 8rem;
+}
+.customar-img{
+    width: 7rem;
+}
+.delivary{
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+.coin{
+    width: 100%;
+    
+}
+.discound{
+    width: 100%;
+  margin-bottom: 2rem;
+   
+}
+.customar{
+    width: 100%;
+    margin-top: 5.2rem;
+}
+h1{
+    font-size: 3.2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.5px;
+    margin-bottom: 1.2rem;
+    color: aliceblue !important;
+}
+.delivary-h1{
+    margin-top: 3rem;
+}
+h6{
+    font-size: 1rem;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 2.2rem;
+    color: aliceblue !important;
+}
+.right-right{
+    margin-top: 3rem;
+}
+.header{
+    gap: 8rem;
+}
+.btn-success{
+    background-color: orange !important;
+    border: none;
+    padding: 14px 39px 1rem 3rem;
+}
+@media(max-width:1286px){
+    .right-right{
+        margin-top: 5rem;
+    } .delivary-h1{
+        margin-top: 1.5rem;
+    }
+    .coin{
+        padding-top: 1rem;
+    }
+    
+}
+@media(max-width:1200px){
+.contont{
+     max-width:  100rem;
+}
+.left{
+    margin-left: none;
+}
+h1{
+    font-size: 3rem;
+}h6{
+    font-size: 0.8rem;
+}.right-left{
+    margin-top: 3rem;
+}
+
+
+}
+
+@media(max-width:992px){
+    .contont{
+         max-width:  80rem;
+    }
+    .left{
+        margin-left:-0.5rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .right-left{
+        margin-top: 0;
+    }
+    .btn-success{
+        padding: 11px 27px 1rem 2rem;
+    }
+}
+
+@media(max-width:769px){
+    .contont{
+        grid-template-columns: 1fr;
+    }
+    .right-left{
+        margin-top: 2.5rem;
+    }
+    .left{
+        margin-left: 5rem;
+    }
+
+}
+@media(max-width:570px){
+    .right{
+        grid-template-columns: 1fr ;
+        margin-left: 6.5rem;
+    }
+}
+@media(max-width:477px){
+    .contont{
+        margin-left: -2rem;
+    }
+}

@@ -1,0 +1,44 @@
+
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        
+            <div class="container-fluid">
+              <div class="nav-menu">
+                <a class="navbar-brand">Flipkart <img src="../../assets/image/Flipkart-Emblem.png" alt=""></a>
+              
+              <button class="btn-mobile-nav" (click)="openMenu()">
+                <span><i class="fa-solid fa-bars icon-mobile-nav"></i></span>
+                <span><i class="fa-regular fa-circle-xmark icon-mobile-nav"></i></span>
+              </button>
+              </div>
+              
+
+              <div class="container-menu" [class.menuClass]="menuVariable">
+
+                <div class="navbar-nav"><a class="nav-link active" aria-current="page" href="#">Home</a></div>
+                <div class="navbar-nav"><a class="nav-link" href="#">Service</a></div>
+                <div class="navbar-nav"><a class="nav-link" href="#">Help</a></div> 
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Items
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Mobile</a></li>
+                        <li><a class="dropdown-item" href="#">Smart Watch</a></li>
+                        <li><a class="dropdown-item" href="#">Man & Woman Dress</a></li>
+                        <li><a class="dropdown-item" href="#">Computer</a></li>
+                      </ul>
+                </div>
+
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              
+              
+              
+            </div>
+            </div>
+         
+      </nav>
+   
+

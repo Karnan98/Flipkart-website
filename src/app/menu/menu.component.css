@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+.container{
+    max-width: 130rem;
+    background-image: url(../../assets/image/background-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    display: flex;
+   justify-content: center ;
+}
+.des{
+    display: flex;
+    justify-content: center ;
+}
+.contant{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}.nav-link{
+    color: rgb(235, 237, 102);
+}
+
+
+
+img{
+    width: 5rem;
+}
+.Mobile-row{
+    display: flex;
+    padding-left: 7rem;
+
+}.model{
+    margin-left: 3rem;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    margin-top: 4rem;
+    color: aliceblue;
+}h6{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+h3{
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    color:rgb(168, 248, 235);
+    cursor: pointer;
+}
+
+.end{
+    margin-left: 60rem;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}
+.btn-success{
+    background-color: orange !important;
+    border: none;
+    padding: 14px 39px 1rem 3rem;
+} 
+
+@media(max-width:1200px){
+.container{
+    max-width: 100rem;
+}
+.end{
+    margin-left: 40rem;
+
+}
+}
+@media(max-width:992px){
+    .container{
+        max-width: 80rem;
+    }
+    .end{
+        margin-left: 20rem;
+    
+    }
+    .Mobile-row{
+        padding-left: 3rem;
+    }
+    .btn-success{
+        padding: 11px 27px 1rem 2rem;
+
+    }
+    .end{
+        margin-left: 28rem;
+    }
+}
+@media(max-width:769px){
+    .contant{
+        grid-template-columns: 1fr;
+    }
+    .end{
+        margin-left: 18rem;
+    }
+
+}
+@media(max-width:536px){
+    .end{
+        margin-left: 14rem;
+    }
+}
+@media(max-width:477px){
+    .end{
+        margin-left: 13rem;
+    }
+    .contant{
+        margin-left: -1rem;
+    }
+    .end{
+        margin-left: 10rem;
+    
+    }
+}

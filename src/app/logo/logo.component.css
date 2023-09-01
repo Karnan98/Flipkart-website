@@ -1,0 +1,138 @@
+.container{
+    margin-top: 1rem;
+   max-width: 130rem;
+
+}
+
+
+.bg-primary{
+    background-color: aliceblue !important;
+    
+}
+img{
+    width: 50px;
+    
+}
+
+.navbar-brand{
+    color: orange !important;
+    font-size: 24px;
+    font-weight:600;
+    font-family: Georgia, serif;;
+    margin-left: 4rem;
+}
+
+.container-menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.navbar-nav{
+    font-size: 19px;
+    
+    
+}
+.nav-link{
+    color: black !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.dropdown-toggle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.me-2{
+    background-color: aliceblue;
+}
+
+.active{
+    color: orange !important;
+}
+.btn-mobile-nav{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    display: none;
+    margin-left: 21rem;
+   
+}
+.icon-mobile-nav{
+    width: 2.8rem;
+    height: 1.8rem;
+    color: black;
+ 
+}
+.fa-circle-xmark{
+    display: none;
+}
+@media(max-width:1200px){
+.container{
+      max-width: 100rem;
+    
+ }
+.container-menu{
+    gap: 1rem;
+ }
+ 
+
+}
+@media(max-width:992px){
+    .container{
+        max-width: 80rem;  
+   }
+   .container-menu{
+    width: 70%;
+    padding:2rem 5rem;
+   
+   position: fixed;
+    display: grid;
+    margin-top: 25rem;
+    right: -400rem;
+   background: url(../../assets/image/background-1.jpg);
+   background-position: center;
+   border-radius: 3%;
+   box-shadow: 4px 9px 31px;
+    
+   }
+   .menuClass{
+    right: 4.5rem;
+    transition: 0.4 ease-in-out;
+   }
+  
+   .btn-mobile-nav{
+    display: block;
+    margin-left: 23rem;
+   }
+   .nav-menu{
+    display: flex;
+    justify-content: space-between;
+   }
+
+
+}
+@media(max-width:769px){
+    .btn-mobile-nav{
+       
+        margin-left: 12rem;
+    }
+}
+@media(max-width:525px){
+    .btn-mobile-nav{
+       
+        margin-left: 8rem;
+    }
+}
+
+@media(max-width:454px){
+    .btn-mobile-nav{
+       
+        margin-left: 5rem;
+    }
+}
+
+@media(max-width:412px){
+    .btn-mobile-nav{
+       
+        margin-left: 1rem;
+    }
+}
